@@ -61,6 +61,36 @@ body {
     margin-bottom: 20px;
 }
 
+/* Paginação */
+.paginacao {
+    margin-top: 40px;
+}
+
+.navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    color: #4a63d2;
+    font-size: 18px;
+    padding: 8px 14px;
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+/* Efeito de hover (escurece quando passa o mouse) */
+.navegacao li a:hover {
+    background-color: #e0e0e0;
+    color: #1c2f91;
+}
+
 /* Rodapé */
 .rodape {
     background-color: #3d5a80;
